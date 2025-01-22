@@ -13,9 +13,10 @@ https://videokonferenzintro.de/wp-admin/admin.php?page=h5p_new
 
 I'll try and describe what the script needs to do as far as I can tell:
 1. Read the first column of the csv 'Title' and create an entire replication of the template h5p using the Title as the name of the folder.
-2. Open up h5p.json and rename the title of the activity.
+2. I guess I need to use shutil for this. 
+3. Open up h5p.json and rename the title of the activity.
   
 4. Basically 3 images should be given in a random order and the user drags and drops them into the correct dropbox.
-5. There are 3 columns in input.csv showing the correct order.
+5. There are 6 columns in input.csv showing the random order first and the next 3 show the correct order.
 6. Need to go into content.json and take the next 3 columns of csv data 'Phoneme 1', 'Phoneme 2' and 'Phoneme 3' and map Phoneme 1 to placeholder1.png, Phoneme 2 to placeholder2.png and 3 to 3.
 7. 
