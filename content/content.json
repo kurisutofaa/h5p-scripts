@@ -1,0 +1,214 @@
+{
+    "scoreShow": "Check",
+    "submit": "Submit",
+    "tryAgain": "Retry",
+    "scoreExplanation": "Correct answers give +1 point. Incorrect answers give -1 point. The lowest possible score is 0.",
+    "question": {
+      "settings": {
+        "size": {
+          "width": 620,
+          "height": 310
+        }
+      },
+      "task": {
+        "elements": [
+          {
+            "x": 11.74496644295302,
+            "y": 40.26845637583892,
+            "width": 3.7520610738255034,
+            "height": 3.7520610738255034,
+            "dropZones": ["0", "1", "2"],
+            "type": {
+              "library": "H5P.Image 1.1",
+              "params": {
+                "decorative": false,
+                "contentName": "Image",
+                "alt": "Image",
+                "file": {
+                  "path": "images/placeholder1.png",
+                  "mime": "image/png",
+                  "copyright": {
+                    "license": "U"
+                  },
+                  "width": 500,
+                  "height": 500
+                },
+                "caption": ""
+              },
+              "subContentId": "104705d7-bfae-4fdc-96b9-a0078e4f9d39",
+              "metadata": {
+                "contentType": "Image",
+                "license": "U",
+                "title": "Untitled Image",
+                "authors": [],
+                "changes": []
+              }
+            },
+            "backgroundOpacity": 100,
+            "multiple": false
+          },
+          {
+            "x": 26.845637583892618,
+            "y": 40.26845637583892,
+            "width": 3.7520610738255034,
+            "height": 3.7520610738255034,
+            "dropZones": ["0", "1", "2"],
+            "type": {
+              "library": "H5P.Image 1.1",
+              "params": {
+                "decorative": false,
+                "contentName": "Image",
+                "alt": "Image",
+                "file": {
+                  "path": "images/placeholder2.png",
+                  "mime": "image/png",
+                  "copyright": {
+                    "license": "U"
+                  },
+                  "width": 500,
+                  "height": 500
+                },
+                "caption": ""
+              },
+              "metadata": {
+                "contentType": "Image",
+                "license": "U",
+                "title": "Untitled Image",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "5f955a49-9cb7-44af-adc1-cee56256f708"
+            },
+            "backgroundOpacity": 100,
+            "multiple": false
+          },
+          {
+            "x": 41.946308724832214,
+            "y": 40.26845637583892,
+            "width": 3.7520610738255034,
+            "height": 3.7520610738255034,
+            "dropZones": ["0", "1", "2"],
+            "type": {
+              "library": "H5P.Image 1.1",
+              "params": {
+                "decorative": false,
+                "contentName": "Image",
+                "alt": "Image",
+                "file": {
+                  "path": "images/placeholder3.png",
+                  "mime": "image/png",
+                  "copyright": {
+                    "license": "U"
+                  },
+                  "width": 500,
+                  "height": 500
+                },
+                "caption": ""
+              },
+              "metadata": {
+                "contentType": "Image",
+                "license": "U",
+                "title": "Untitled Image",
+                "authors": [],
+                "changes": []
+              },
+              "subContentId": "a2d0d2ce-4cb5-4ee1-b1b3-0e00ea9836e6"
+            },
+            "backgroundOpacity": 100,
+            "multiple": false
+          }
+        ],
+        "dropZones": [
+          {
+            "x": 11.74496644295302,
+            "y": 6.7114093959731544,
+            "width": 4.551174496644295,
+            "height": 4.551172871224833,
+            "correctElements": [],
+            "showLabel": false,
+            "backgroundOpacity": 100,
+            "tipsAndFeedback": {
+              "tip": ""
+            },
+            "single": true,
+            "autoAlign": true,
+            "type": {
+              "library": "H5P.DragQuestionDropzone 0.1"
+            },
+            "label": "<div>Phoneme Box 1</div>\n"
+          },
+          {
+            "x": 26.845637583892618,
+            "y": 6.7114093959731544,
+            "width": 4.551174496644295,
+            "height": 4.551172871224833,
+            "correctElements": [],
+            "showLabel": false,
+            "backgroundOpacity": 100,
+            "tipsAndFeedback": {
+              "tip": ""
+            },
+            "single": true,
+            "autoAlign": true,
+            "type": {
+              "library": "H5P.DragQuestionDropzone 0.1"
+            },
+            "label": "<div>Phoneme Box 2</div>\n"
+          },
+          {
+            "x": 41.946308724832214,
+            "y": 6.7114093959731544,
+            "width": 4.551174496644295,
+            "height": 4.551172871224833,
+            "correctElements": [],
+            "showLabel": false,
+            "backgroundOpacity": 100,
+            "tipsAndFeedback": {
+              "tip": ""
+            },
+            "single": true,
+            "autoAlign": true,
+            "type": {
+              "library": "H5P.DragQuestionDropzone 0.1"
+            },
+            "label": "<div>Phoneme Box 3</div>\n"
+          }
+        ]
+      }
+    },
+    "overallFeedback": [
+      {
+        "from": 0,
+        "to": 100
+      }
+    ],
+    "behaviour": {
+      "enableRetry": true,
+      "enableCheckButton": true,
+      "singlePoint": false,
+      "applyPenalties": true,
+      "enableScoreExplanation": true,
+      "dropZoneHighlighting": "dragging",
+      "autoAlignSpacing": 2,
+      "enableFullScreen": false,
+      "showScorePoints": true,
+      "showTitle": true
+    },
+    "grabbablePrefix": "Grabbable {num} of {total}.",
+    "grabbableSuffix": "Placed in dropzone {num}.",
+    "dropzonePrefix": "Dropzone {num} of {total}.",
+    "noDropzone": "No dropzone.",
+    "tipLabel": "Show tip.",
+    "tipAvailable": "Tip available",
+    "correctAnswer": "Correct answer",
+    "wrongAnswer": "Wrong answer",
+    "feedbackHeader": "Feedback",
+    "scoreBarLabel": "You got :num out of :total points",
+    "scoreExplanationButtonLabel": "Show score explanation",
+    "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+    "a11yRetry": "Retry the task. Reset all responses and start the task over again.",
+    "localize": {
+      "fullscreen": "Fullscreen",
+      "exitFullscreen": "Exit fullscreen"
+    }
+  }
