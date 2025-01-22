@@ -16,12 +16,14 @@ and this is an online editor that you can import it to see how the activity func
 https://videokonferenzintro.de/wp-admin/admin.php?page=h5p_new
 
 I'll try and describe what the script needs to do as far as I can tell:
-1. Read the first column of the csv 'Title' and create an entire replication of the template h5p using the Title as the name of the folder.
+1. Read the first column of  input.csv 'Title' and create an entire replication of the template h5p using the Title as the name of the folder.
 2. I guess I need to use shutil for this. 
 3. Open up h5p.json and rename the title of the activity.
   
 4. Basically 3 images should be given in a random order and the user drags and drops them into the correct dropbox.
 5. There are 6 columns in input.csv showing the random order first and the next 3 show the correct order.
-6. Need to go into content.json and take the next 3 columns of csv data 'Phoneme 1', 'Phoneme 2' and 'Phoneme 3' and map Phoneme 1 to placeholder1.png, Phoneme 2 to placeholder2.png and 3 to 3.
+6. Need to go into content.json and take the next 3 columns of csv data 'Phoneme 1', 'Phoneme 2' and 'Phoneme 3' and map Phoneme 1 to line 28 placeholder1.png, Phoneme 2 to line 63 placeholder2.png and line 98 Phoneme 3 to placeholder3.png
 7. I don't know what to call these things in the JSON, the correct terminology. I am now researching that. I guess they are object literals.
-8. Need to go down to the dropZones "part" of the file and set correctElements to the correct order mapped from input.csv
+8. Need to go down to Line 121 dropZones and set correctElements to the correct order mapped from input.csv
+9. Line 127 dropZones 0 should map to Correct 1. Line 145 dropZones 1 should map to Correct 2 and Line 163 dropZones 2 should map to Correct 3. 
+10. Line 26 'path', the place where I will store the name of the png file, eg placeholder1.png -> fleece.png, there is a parameter called alt and I need to change that too. Maybe I could set it to the same name as the png?
