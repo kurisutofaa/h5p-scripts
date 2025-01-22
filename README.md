@@ -19,4 +19,5 @@ I'll try and describe what the script needs to do as far as I can tell:
 4. Basically 3 images should be given in a random order and the user drags and drops them into the correct dropbox.
 5. There are 6 columns in input.csv showing the random order first and the next 3 show the correct order.
 6. Need to go into content.json and take the next 3 columns of csv data 'Phoneme 1', 'Phoneme 2' and 'Phoneme 3' and map Phoneme 1 to placeholder1.png, Phoneme 2 to placeholder2.png and 3 to 3.
-7. 
+7. I don't know what to call these things in the JSON, the correct terminology.
+8. Need to go down to the dropZones "part" of the file and set correctElements to the correct order mapped from input.csv
