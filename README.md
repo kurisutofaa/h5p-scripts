@@ -29,3 +29,6 @@ I'll try and describe what the script needs to do as far as I can tell:
 10. Line 26 'path', the place where I will store the name of the png file, eg placeholder1.png -> fleece.png, there is a parameter called alt and I need to change that too. Maybe I could set it to the same name as the png?
 
 I hope that makes some sense? I am open to any feedback whatsoever. Thank you. 
+
+Other Notes
+When zipping it is important to navigate inside the parent folder so that all the folders themselves are visible. Select all -> right click compress to zip them -> change extension to .h5p
