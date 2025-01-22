@@ -8,6 +8,7 @@ There is a script that I tried to work through step by step with ChatGPT but it 
 I'll try and describe what the script needs to do as far as I can tell:
 1. Read the first column of the csv 'Title' and create an entire replication of the template h5p using the Title as the name of the folder.
 2. Open up h5p.json and rename the title of the activity.
-3. 
-4. Then go into content.json and take the next 3 columns of csv data 'Phoneme 1', 'Phoneme 2' and 'Phoneme 3' and map Phoneme 1 to placeholder1.png, Phoneme 2 to placeholder2.png and 3 to 3.
-5. 
+3. I need to create the correct answer as well. So I might need to create another 3 columns in input.csv to show the correct order.
+4. Basically the images should be given in a random order and the user drags and drops them into the correct order. 
+5. Then go into content.json and take the next 3 columns of csv data 'Phoneme 1', 'Phoneme 2' and 'Phoneme 3' and map Phoneme 1 to placeholder1.png, Phoneme 2 to placeholder2.png and 3 to 3.
+6. 
