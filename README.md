@@ -7,6 +7,7 @@ To that end I am looking for help in understanding how things work rather than b
 h5p files are a collection of JSON files. The main 3 directories I need to work with as far as I can tell are the content.json, images.json and h5p.json
 I have a template 'Drag and Drop' h5p and a sample csv file called input.csv. 
 There is a script that I tried to work through step by step with ChatGPT but it simply didn't work and I didn't know what else I was missing.
+https://github.com/kurisutofaa/h5p-scripts/blob/main/content/script1.py 
 
 I have my template Drag and Drop .h5p file here:
 https://drive.google.com/file/d/1wGggELboKUZIDkkPlfniauWz2Bz_MNhH/view?usp=sharing
