@@ -27,6 +27,8 @@ I'll try and describe what the script needs to do as far as I can tell:
 8. Need to go down to Line 121 dropZones and set correctElements to the correct order mapped from input.csv
 9. Line 127 dropZones 0 should map to Correct 1. Line 145 dropZones 1 should map to Correct 2 and Line 163 dropZones 2 should map to Correct 3. 
 10. Line 26 'path', the place where I will store the name of the png file, eg placeholder1.png -> fleece.png, there is a parameter called alt and I need to change that too. Maybe I could set it to the same name as the png?
+11. I might need to set UUIDs wherever they are used. I'm not sure how much of a problem it would be to have them be duplicated across all copies of that activity, but I don't suppose it's hard to import uuid
+    as it's a built in Python library, and generate UUIDs where needed.
 
 I hope that makes some sense? I am open to any feedback whatsoever. Thank you. 
 
