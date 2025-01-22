@@ -1,11 +1,11 @@
-Title,Phoneme 1,Phoneme 2,Phoneme 3
-cat,a,t,k
-dog,g,ɒ,d
-mat,t,m,a
-pig,g,ɪ,p
-run,ʌ,n,r
-sun,s,n,ʌ
-hat,a,h,t
-log,l,g,ɒ
-map,p,m,a
-bed,ɛ,b,d
+Title,Phoneme 1,Phoneme 2,Phoneme 3,Correct 1,Correct 2, Correct 3
+cat,a,t,k,k,a,t
+dog,g,ɒ,d,d,ɒ,g
+mat,t,m,a,m,a,t
+pig,g,ɪ,p,p,ɪ,g
+run,ʌ,n,r,r,ʌ,n
+sun,s,n,ʌ,s,ʌ,n
+hat,a,h,t,h,a,t
+log,l,g,ɒ,l,ɒ,g
+map,p,m,a,m,a,p
+bed,e,b,d,b,e,d
