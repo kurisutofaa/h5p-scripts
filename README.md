@@ -33,4 +33,4 @@ I'll try and describe what the script needs to do as far as I can tell:
 I hope that makes some sense? I am open to any feedback whatsoever. Thank you. 
 
 Other Notes
-When zipping it is important to navigate inside the parent folder so that all the folders themselves are visible. Select all -> right click compress to zip them -> change extension to .h5p
+When zipping it is important to navigate inside the parent folder so that all the folders themselves are visible. Select all -> right click compress to zip them -> change extension to .h5p. To use the relative path, not the absolute path. I think that's the right way to describe it.
